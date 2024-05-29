@@ -1,0 +1,85 @@
+@media (max-width: 767px) {
+  /* NAVBAR */
+  .nav-list,
+  .nav-address {
+    display: none;
+  }
+
+  .header-container {
+    width: 100%;
+  }
+
+  /* SECOND SECTION */
+
+  .second-section-list {
+    justify-content: center;
+  }
+
+  .second-section-text-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* THIRD SECTION */
+
+  .third-section-list {
+    justify-content: center;
+  }
+
+  /* FOURTH SECTION */
+
+  .fourth-section-list {
+    justify-content: center;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer-logo-p-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-text-socials-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .footer-socials-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 72px 0;
+  }
+  .footer-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container {
+    padding: 96px 16px;
+  }
+
+  /* HAMBURGER MENU */
+
+  .hamburger-btn {
+    display: block;
+  }
+}
+
+/* MODAL SMALL */
+@media (max-width: 408px) {
+  .modal-window {
+    width: 100%;
+  }
+}
